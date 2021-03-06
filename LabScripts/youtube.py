@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
 browser = webdriver.Chrome()
-browser.get("https://www.youtube.com/watch?v=acEOASYioGY&ab_channel=BadBunny")
+browser.get("https://www.youtube.com/watch?v=rfFN2xb6CFg&list=RDCLAK5uy_lvjNfBiapOKQwGaT11A5Y3lghUDPmNfpY&start_radio=1")
 
 # video.send_keys(Keys.SPACE) #hits space
 
@@ -21,7 +21,8 @@ while True:
                       "\n5. Subir volumen"
                       "\n6. Bajar volumen"
                       "\n7. Mutear/Desmutear"
-                      "\n8. Poner/Salir fullscreen\n"))
+                      "\n8. Siguiente Video"
+                      "\n9. Poner/Salir fullscreen\n"))
     except ValueError:
         print("Elija un valor valido")
 
@@ -45,6 +46,9 @@ while True:
     elif x == 7:
         boton_mute = browser.find_elements_by_class_name('ytp-mute-button')
         boton_mute[0].click()
+    elif x == 8:
+        boton_next = browser.find_elements_by_class_name('ytp-next-button')
+        boton_next[0].click()
     else:
         boton_fullscreen = browser.find_elements_by_class_name('ytp-fullscreen-button')
         boton_fullscreen[0].click()

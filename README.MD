@@ -7,10 +7,10 @@ https://sites.google.com/a/chromium.org/chromedriver/
 Para instalar los requerimientos
 
 ``` python
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 Obtener requeriminetos
 ```
-pip freeze > requirements.txt
+pip3 freeze > requirements.txt
 ```

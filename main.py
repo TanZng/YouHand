@@ -65,7 +65,7 @@ button_escuchar = tkinter.Button(window, text="Escuchar", command=escuchar)
 button_escuchar.place(x=240, y=164, width=90, height=35)
 button_escuchar.config(fg="white", font=("Verdana 10 bold", 14), justify="center", bg="chartreuse3")
 
-# Boton de escuchar
+# Boton de ayuda
 button_ayuda = tkinter.Button(window, text="Ayuda", command=ayuda)
 button_ayuda.place(x=150, y=218, width=90, height=35)
 button_ayuda.config(fg="white", font=("Verdana 10 bold", 14), justify="center", bg="turquoise3")

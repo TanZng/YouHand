@@ -10,6 +10,12 @@ Instalar chromedriver
 
 https://sites.google.com/a/chromium.org/chromedriver/
 
+Para instalar opencv
+```bash
+pip install --upgrade pip
+pip install opencv-python==4.2.0.32
+```
+
 Para instalar los requerimientos
 
 ```bash
@@ -30,6 +36,12 @@ python3 main.py
 Obtener requeriminetos
 ```bash
 pip3 freeze > requirements.txt
+```
+
+Puede agregar en el script youhand.py lo siguiente si su controlador no es detectado.
+
+```python
+browser = webdriver.Chrome(executable_path='/ruta/chromedriver')
 ```
 
 ### Creditos

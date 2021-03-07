@@ -27,8 +27,8 @@ def escuchar():
         # print("Vacio")
         tkinter.messagebox.showinfo("Error", "URL invalida, por favor introduzca una URL valida.")
     else:
-        # print("abirendo opencv")
-        os.system('python youhand.py ' + url)
+        print(url)
+        os.system('python youhand.py "' + str(url) + '"')
 
 
 # Ventana o panel

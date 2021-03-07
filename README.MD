@@ -17,7 +17,7 @@ pip install opencv-python==4.2.0.32
 ```
 
 Para instalar los requerimientos
-
+###Oli, de nuevo
 ```bash
 pip3 install -r requirements.txt
 ```

@@ -45,7 +45,13 @@ browser = webdriver.Chrome(executable_path='/ruta/chromedriver')
 ```
 
 ### Creditos
-WIP
+- [Gabriela Solano](https://github.com/GabySol): Ingeniera y creadora de contenido sobre visión por computador, nos apoyamos en sus tutoriales para contar los dedos levantados a través de la webcam.
+- [Andrea Aranda](https://github.com/Andy-Aranda): Desarrolladora de la UI y UX.
+- [Tania Zuñiga](https://github.com/Delttoria): Product Manager.
+- [Gregorio César Cuevas Herrera](https://github.com/Delttoria): Tech Lead.
+- [Emiliano Montoya](https://github.com/Emi-bit): Desarrollador.
+- [Daniel Nieto](https://github.com/danielnietod): Desarrollador.
 
 ### LICENSE
+[MIT License](https://github.com/TanZng/YouHand/blob/master/LICENSE)
 

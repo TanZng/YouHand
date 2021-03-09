@@ -3,7 +3,7 @@
 <img src="https://github.com/TanZng/YouHand/blob/master/src/gifDemo.gif?raw=true" width="400" align="center" />
 <br/>
 
-Video Demo: WIP
+Video Demo: https://youtu.be/mboGRISComw
 
 ### Instalacion
 
